@@ -1,0 +1,111 @@
+/* Cards */
+
+.cards {
+  margin: 0rem auto 3rem auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.5rem;
+}
+
+.card span {
+  top: -2rem;
+  left: 2rem;
+  position: absolute;
+  z-index: 2;
+  color: white;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  background-image: linear-gradient(var(--light-orange), var(--pink));
+  line-height: 55px;
+  vertical-align: middle;
+  text-align: center;
+}
+.card span :only-child {
+  font-size: 1.3em;
+}
+
+.card {
+  position: relative;
+  margin: 1rem 0rem 2rem 0;
+  z-index: 1;
+}
+
+#first-card {
+  font-size: 1.5em;
+  background-image: linear-gradient(var(--light-orange), var(--pink));
+}
+
+#first-card h5 {
+  color: white;
+  font-size: 1.2em;
+  font-weight: 500;
+  line-height: 1.3em;
+}
+
+.card--links {
+  padding: 1.8rem;
+  border-radius: 15px;
+}
+
+.card-title {
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.card-text {
+  color: var(--text-light);
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+.card-link {
+  text-decoration: none;
+  color: var(--pink);
+  font-size: 1.3em;
+  font-weight: 600;
+  margin-top: 1rem;
+  transition: color 0.5s linear;
+}
+
+.card-link:hover {
+  color: var(--light-orange);
+}
+
+.card-body {
+  padding: 0;
+}
+
+@media (min-width: 768px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.4rem;
+  }
+  .card {
+    margin: 1rem 0rem 1rem 0;
+  }
+  .card-text {
+    color: var(--text-light);
+    font-size: 1em;
+  }
+
+  .card-body {
+    padding: 1rem;
+  }
+  #first-card h5 {
+    font-size: 1.5em;
+  }
+}
+
+@media (min-width: 992px) {
+  .cards {
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0rem auto 7rem auto;
+  }
+
+  .card-title {
+    font-size: 1.6em;
+  }
+}

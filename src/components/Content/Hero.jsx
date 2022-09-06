@@ -2,6 +2,7 @@ import React from "react";
 import mobile from "../../assets/image-hero-mobile.png";
 import tablet from "../../assets/image-hero-tablet.png";
 import desktop from "../../assets/image-hero-desktop.png";
+import "./hero.css";
 
 function Hero() {
   return (

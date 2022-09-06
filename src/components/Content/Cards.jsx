@@ -9,6 +9,8 @@ import {
   faSuitcase,
 } from "@fortawesome/free-solid-svg-icons";
 
+import "./cards.css";
+
 const Cards = () => {
   return (
     <>
