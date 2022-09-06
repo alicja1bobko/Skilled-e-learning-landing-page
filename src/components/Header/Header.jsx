@@ -3,7 +3,7 @@ import React from "react";
 const Header = () => {
   return (
     <>
-      <section className="container w-100">
+      <section className="container header-container">
         <p class="d-flex justify-content-between align-items-center mt-3">
           <span class="me-3 logo">skilled</span>
           <button type="button" className="header-btn">

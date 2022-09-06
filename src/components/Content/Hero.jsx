@@ -1,7 +1,7 @@
 import React from "react";
-import mobile from "../assets/image-hero-mobile.png";
-import tablet from "../assets/image-hero-tablet.png";
-import desktop from "../assets/image-hero-desktop.png";
+import mobile from "../../assets/image-hero-mobile.png";
+import tablet from "../../assets/image-hero-tablet.png";
+import desktop from "../../assets/image-hero-desktop.png";
 
 function Hero() {
   return (
