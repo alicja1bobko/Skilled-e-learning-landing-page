@@ -17,7 +17,7 @@ This is a solution to the [Skilled e-learning landing page challenge on Frontend
 - Mobile-first workflow
 - Bootstrap
 
-#Demo
+## Demo
 
 Site hosted on gh-pages: [Skilled e-learning landing page](https://alicja1bobko.github.io/Skilled-e-learning-landing-page/)
 
