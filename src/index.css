@@ -25,6 +25,7 @@ body {
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
   background-image: linear-gradient(white, var(--bcg-darker));
+  overflow-x: hidden;
 }
 
 .logo {
@@ -42,6 +43,12 @@ body {
     width: 100%;
     padding-left: 16px;
     padding-right: 16px;
+  }
+}
+
+@media (min-width: 768px){
+  .container{
+      max-width: 1000px;
   }
 }
 
